@@ -1,0 +1,124 @@
+.bgStyle {
+  background-image: url(../assets/bgwallpaper.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formStyle {
+  background-color: var(--white-light);
+  width: 25.625rem;
+  position: relative;
+  border-radius: 15px;
+  padding-inline: 16px;
+  padding-block: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  gap: 0.8rem 0px;
+  box-shadow: #88949f 0px 3px 7px;
+}
+
+/* .formStyle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: #A7C1EA;
+  transform: translateX(100%);
+  border-radius: 0px 4px 4px 0px;
+} */
+
+/* .sendCircle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  background: var(--secondary);
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+} */
+/* .sendCircle > svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+} */
+.head {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-blue);
+}
+
+.fullName {
+  display: flex;
+  justify-content: space-between;
+}
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  /* color: var(--white); */
+  color:var(--text-blue);
+}
+
+.button {
+  all: unset;
+  padding-block: 10px;
+  background: var(--btn-color);
+  color: var(--text-blue);
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin:10px 0px 20px 0px;
+  
+}
+
+input,
+textarea,
+select {
+  background: var(--text-bg);
+  border: none;
+  border-radius: 3px;
+  outline-color: var(--primary-clr);
+  width: 100%;
+  padding: 2px 5px;
+  outline: none;
+  caret-color: var(--text-bg);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  height: 2rem;
+}
+select > option {
+  color: rgb(3, 108, 103);
+}
+textArea {
+  height: 5rem;
+}
+
+.wrapper {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapperInner {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
