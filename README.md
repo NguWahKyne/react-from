@@ -1,2 +1,2 @@
-# react-from
-sample design
+# react-form-class-component
+sample react form
